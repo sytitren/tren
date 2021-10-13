@@ -35,7 +35,7 @@ function hit(){
     randomDirection();
 
 }
-
+/*
 function miss(){
     
     background.style.filter = 'brightness('+brightness+')';
@@ -46,7 +46,7 @@ function miss(){
     }
 
 }
-
+*/
 function checkTime(){
 
     let seconds = time / 10;
@@ -71,9 +71,9 @@ function mainLoop(){
 
     if (checkCollision(circle, cursor)){
         setTimeout(hit, 1000);
-    } else {
+    } /*else {
         miss();
-    }
+    }*/
 
     move();
 
