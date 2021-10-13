@@ -52,7 +52,7 @@ footer {
     position: absolute;
     width: 150px;
     height: 150px;
-    border: double 0.3rem #fff;
+    border: double 0.3rem rgb(180, 0, 0);
     border-radius: 10%;
     transition-duration: 100ms;
 }
